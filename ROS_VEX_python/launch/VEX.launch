@@ -1,0 +1,5 @@
+<launch>
+   <node name="VEX" pkg="ROS_VEX_python" type="VEX_node.py" output="screen">
+      <rosparam file="$(find ROS_VEX_python)/config/my_VEX_params.yaml" command="load" />
+   </node>
+</launch>

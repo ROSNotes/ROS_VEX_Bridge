@@ -1,0 +1,22 @@
+<package>
+  <name>ROS_VEX_python</name>
+  <version>0.2.0</version>
+  <description>
+    ROS VEX Python.
+  </description>
+  <author>Patrick Goebel</author>
+  <maintainer email="patrick@pirobot.org">Patrick Goebel</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/ROS_VEX_python</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>ROS_VEX_msgs</run_depend>
+  <run_depend>python-serial</run_depend>
+</package>
